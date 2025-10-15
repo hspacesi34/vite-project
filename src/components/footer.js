@@ -1,6 +1,6 @@
 document.getElementById("footer").innerHTML=`
 <!-- Footer -->
-        <footer class="footer footer-center bg-base-200 text-base-content rounded-t-lg p-6 sm:p-10 mt-auto absolute bottom-0">
+        <footer class="footer footer-center bg-base-200 text-base-content rounded-t-lg p-6 sm:p-10 mt-auto">
           <nav class="grid grid-flow-col gap-2 sm:gap-4 text-xs sm:text-sm">
             <a class="link link-hover">À propos</a>
             <a class="link link-hover">Contact</a>
