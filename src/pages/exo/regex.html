@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css">
+  <title>Exo Regex Javascript</title>
+</head>
+
+<body class="min-h-screen">
+  <div id="navbar"></div>
+  <h1 class="flex justify-center m-4">Exercices regex</h1>
+  <main class="flex flex-col m-4">
+        <fieldset class="fieldset mx-auto">
+            <legend class="fieldset-legend">Login</legend>
+            <input type="text" id="login-input" class="input" placeholder="Type here" required/>
+            <legend class="fieldset-legend">Password</legend>
+            <input type="text" id="password-input" class="input" placeholder="Type here" required/>
+            <button class="btn btn-outline btn-primary">Confirmer</button>
+        </fieldset>
+        <div class="mx-auto" id="msg-validator"></div>
+    </main>
+    <div id="footer"></div>
+  <script type="module" src="/src/components/footer.js"></script>
+  <script type="module" src="/src/components/navbar.js"></script>
+  <script type="module" src="/src/scripts/exo-regex.js"></script>
+</body>
+
+</html>
