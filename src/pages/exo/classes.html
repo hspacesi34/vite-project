@@ -9,11 +9,18 @@
   <title>Exo Classes Javascript</title>
 </head>
 
-<body class="min-h-screen">
+<body>
   <div id="navbar"></div>
-  <h1 class="flex justify-center m-4">Exercices classes</h1>
-  
-    <div id="footer"></div>
+  <main class="flex flex-col items-center h-screen">
+    <h1 class="flex justify-center m-4">Exercices classes</h1>
+    <div class="dropdown dropdown-hover">
+      <div id="dropdown-actual" tabindex="0" role="button" class="btn m-1">Clients</div>
+      <ul id="dropdown" tabindex="-1" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+      </ul>
+    </div>
+    <div id="display-client"></div>
+  </main>
+  <div id="footer"></div>
   <script type="module" src="/src/components/footer.js"></script>
   <script type="module" src="/src/components/navbar.js"></script>
   <script type="module" src="/src/scripts/exo-classes.js"></script>
